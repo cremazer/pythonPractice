@@ -80,4 +80,51 @@ age = 43
 sentence = f"My name is {name} and I'm {age} years old."
 print(sentence)
 
+# 소수점 둘째자리까지 표현
+percent = 80.123
+sentence = f"I got {percent:.2f}% on the test."
+print(sentence)
 
+# 문법을 암기하는 것보다 Chat GPT를 활용하여 응용하자.
+
+# 문자열 개수 세기
+i = "Life is too short, You need Python"
+print(i.count("o"))
+
+# 문자열 위치 찾기
+print(i.find("o"))
+
+# 문자열 join
+j = ","
+print(j.join("abcd"))
+
+# 문자 대문자로 바꾸기
+k = "hi"
+print(k.upper())
+
+# 문자 소문자로 바꾸기
+l = "HI"
+print(l.lower())
+
+# 왼쪽 공백 지우기 left strip
+m = " hi"
+print(m.lstrip())
+
+# 오른쪽 공백 지우기 right strip
+n = "hi "
+print(n.rstrip())
+
+# 양쪽 공백 지우기 strip
+o = " hi "
+print(o.strip())
+
+# 문자열 바꾸기 replace
+p = "Life is too short, You need Python"
+print(p.replace("Life", "Your leg"))
+
+# 문자열 나누기 split -> 문자열이 리스트로 변환된다.
+q = "Life is too short, You need Python"
+print(q.split())
+
+r = "a:b:c:d"
+print(r.split(":"))
